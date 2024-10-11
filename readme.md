@@ -29,3 +29,14 @@ Install TypeScript globally or locally in your project.
 - **Global Installation** (Optional):
   ```bash
   npm install -g typescript
+
+## 📂 Project Structure
+Here’s a typical project structure:
+
+    my-typescript-project/
+    ├── src/
+    │   ├── index.ts         # Main TypeScript file
+    ├── dist/                # Compiled JavaScript files
+    ├── package.json         # Project metadata and dependencies
+    ├── tsconfig.json        # TypeScript configuration file
+    └── README.md            # This guide
