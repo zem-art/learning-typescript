@@ -9,7 +9,7 @@
     "ts": "rmdir /s /q .\\build\\ && tsc -w",
     "dev": "nodemon .\\build/index.js"
   },
-  "author": "",
+  "author": "zaid",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.6.3"
