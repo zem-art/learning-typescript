@@ -40,19 +40,3 @@ Here’s a typical project structure:
     ├── package.json         # Project metadata and dependencies
     ├── tsconfig.json        # TypeScript configuration file
     └── README.md            # This guide
-
-## 🚀 Getting Started with TypeScript
-1. Writing Your First TypeScript File
-In the src/ directory, create a new file called index.ts:
-    
-    const greeting: string = "Hello, TypeScript!";
-    console.log(greeting);
-
-In this example, we define greeting as a string. TypeScript ensures the value stays a string throughout.
-
-2. Compile the TypeScript Code
-To compile the TypeScript code into JavaScript, run the following command:
-
-    npx tsc
-
-
