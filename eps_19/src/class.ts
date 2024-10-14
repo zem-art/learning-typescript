@@ -54,7 +54,6 @@ class Admin extends User {
             this._email = v;
         }
     }
-
     
     get email() : string {
         return this._email
