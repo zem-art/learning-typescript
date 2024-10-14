@@ -1,0 +1,20 @@
+{
+  "name": "lern_type_08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "if exist .\\build (rmdir /s /q .\\build) && mkdir .\\build && tsc",
+    "ts": "if exist .\\build (rmdir /s /q .\\build) && mkdir .\\build && tsc -w",
+    "dev": "nodemon .\\build/function.js"
+  },
+  "author": "zaid",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
