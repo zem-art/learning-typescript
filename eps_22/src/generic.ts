@@ -5,6 +5,13 @@
  * Dengan generic, Anda dapat menulis kode yang lebih fleksibel, reusable, dan tetap konsisten dengan tipe yang digunakan.
  */
 
+/**
+ * bagian <T> pada class List<T> adalah deklarasi generic.
+ * Ini berarti bahwa T adalah parameter tipe yang bisa diisi dengan tipe data apa pun saat Anda membuat instance dari class List.
+ * 
+ * <T> dalam class List<T> adalah generic type parameter yang memungkinkan class List bekerja dengan tipe apa pun yang diberikan saat pembuatan instance.
+ */
+
 // without generic
 function getData(params:any) {
     return params
