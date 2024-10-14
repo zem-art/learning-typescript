@@ -42,7 +42,7 @@ const fullName = (frist : string, last: string = 'store'): string => {
 console.log(fullName('ucups'))
 
 // optional parameter
-// const funcGetAge = (val1: number, val2?:number): number => {
+// const funcGetAge = (val1: number, val2?:number): number => { // menggunakna optional parameter (?)
 //     /**
 //      * terdapat error di dalam val2 karna nilai undifine tidak bisa di jumlah
 //      * (dalam typescript tidak bisa karna error tapi apabila ketika di compile ke dalam js itu bisa)
