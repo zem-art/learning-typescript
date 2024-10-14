@@ -1,4 +1,5 @@
 "use strict";
+// abstract
 class Vehicle {
     start() {
         console.log('jalan');

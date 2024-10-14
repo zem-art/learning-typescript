@@ -1,3 +1,5 @@
+// abstract
+
 abstract class Vehicle {
     abstract wheels:number ;
 
